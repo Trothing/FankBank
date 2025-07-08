@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap');
+
+:root{
+    --color_big: #C3D0E5; /*текст великих слів*/
+    --color_small: #9AAED1; /*текст малих слів*/
+    --color_a: #36AAFC; /*текст посилань*/
+    --color_icon: #3794FF; /*текст іконок*/
+    --color_background: #0D1117; 
+    --color_section: #161A20;
+    --color_bgicon: #262A30;
+}
+body{
+    font-family: 'Inter';
+    background-color: #0D1117;
+    
+}
+
+header, footer, section{
+    padding: 100px 0;
+}
+header{
+    padding: 100px 0;
+}
+header, footer{
+    background: linear-gradient(to right, var(--color_background) 0%,#2B303C 100%);
+}
+#headerFank{
+   color: var(--color_icon) ;
+   text-shadow:
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px  2px 0 black,
+        2px  2px 0 black;
+}
+#descheaderFank{
+    color: var(--color_big);
+}
+.itd_play{
+    background-color: var(--color_section);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: all 0.2s ease;
+}
+.itd_play:hover{
+    background-color: dimgrey;
+}
+.btn-itd{
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    color: black;
+    font-size: 10;
+    
+    background-color: var(--bs-white);
+}
+.btn-itd:hover{
+    color: black;
+    background-color: var(--bs-white);
+}
+
+.color_big{
+    color: var(--color_big);
+}
+.color_small{
+    color: var(--color_small);
+}
+.color_section{
+    color: var(--color_section);
+}
+.bg{
+    color: var(--color_background);
+}
+.bgicon{
+    color: var(--color_bgicon);
+}
+.color_a{
+    color: var(--color_a);
+}
+
+.itd_square {
+    border: var(--color_bgicon) solid 3px;
+    background-color: var(--color_bgicon);
+    border-radius: 30%;
+    margin-right: 80%;
+    margin-bottom: 10%;
+    width: 7vh;
+    height: 7vh;
+    margin-top: 7vh;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.itd_square i {
+    font-size: 3vh; 
+    color: var(--color_icon);
+}
+.divaboutus{
+    border: var(--color_background) solid 9px;
+    box-shadow: inset 0 0 0 1px #2E3237; 
+    border-radius: 8%;
+    background-color: var(--color_section);
+}
+.textaboutus{
+    margin: 3px;
+    margin-bottom: 20px;
+}
+.headaboutus{
+    margin: 3px;
+}
+
+.headWhoIam{
+    color: var(--color_big);
+    margin: 10vh;
+
+}
+.textWhoiam{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 10vh;
+    color: var(--color_small);
+}
